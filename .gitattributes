@@ -1,0 +1,27 @@
+# Quebras de linha iguais em todos os computadores
+* text=auto
+
+# Código e arquivos de texto do Unity
+*.cs       text diff=csharp
+*.shader   text
+*.unity    text eol=lf
+*.prefab   text eol=lf
+*.asset    text eol=lf
+*.mat      text eol=lf
+*.meta     text eol=lf
+*.json     text
+
+# Arquivos binários (nunca tentar juntar linha por linha)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.psd  binary
+*.tga  binary
+*.fbx  binary
+*.obj  binary
+*.blend binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.ttf  binary
+*.otf  binary
